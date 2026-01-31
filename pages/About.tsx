@@ -2,7 +2,7 @@ import React from 'react';
 import { CONFIG } from '../constants';
 import { Mail, Phone, ExternalLink, Award, Coffee, Zap, Target, TrendingUp, BarChart3 } from 'lucide-react';
 import SEO from '../components/SEO';
-import hamzaAbout from '../Images/hamza_about.jpeg';
+import hamza_about from '../Images/hamza_about.jpeg';
 
 const About: React.FC = () => {
   return (
