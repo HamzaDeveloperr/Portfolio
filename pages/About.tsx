@@ -18,7 +18,7 @@ const About: React.FC = () => {
           {/* Sidebar Info */}
           <div className="lg:col-span-4 space-y-8 lg:sticky lg:top-32 reveal">
             <div className="relative rounded-[40px] overflow-hidden border-8 border-white shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt={CONFIG.name} className="w-full h-auto object-cover" />
+              <img src="Images/hamza_about.jpeg" alt={CONFIG.name} className="w-full h-auto object-cover" />
             </div>
             
             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm space-y-6 reveal delay-100">
