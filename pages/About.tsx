@@ -2,7 +2,6 @@ import React from 'react';
 import { CONFIG } from '../constants';
 import { Mail, Phone, ExternalLink, Award, Coffee, Zap, Target, TrendingUp, BarChart3 } from 'lucide-react';
 import SEO from '../components/SEO';
-import AboutImage from '../Images/hamza_about.jpeg';
 
 
 const About: React.FC = () => {
@@ -19,7 +18,7 @@ const About: React.FC = () => {
           {/* Sidebar Info */}
           <div className="lg:col-span-4 space-y-8 lg:sticky lg:top-32 reveal">
             <div className="relative rounded-[40px] overflow-hidden border-8 border-white shadow-2xl">
-<img src={AboutImage} alt="About Us" />
+              <img src="Images/hamza_about.jpeg" alt={CONFIG.name} className="w-full h-auto object-cover" />
             </div>
             
             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm space-y-6 reveal delay-100">
