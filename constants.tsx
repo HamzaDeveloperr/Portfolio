@@ -53,7 +53,7 @@ export const SMM_SERVICES: ServiceItem[] = [
     category: 'smm',
     shortDescription: 'Dominating short-form video algorithms with trending, high-retention content.',
     longDescription: 'We handle everything from trend research to professional video editing. Our strategy is designed to hit the "For You" page consistently, building massive brand awareness and organic followers.',
-    image: 'https://697ddd34c4feaabd2d11cb6d.imgix.net/my%20assat/smm1.png',
+    image: 'https://www.imgix.com/solutions/simpler-development',
     externalLink: 'https://www.tiktok.com',
     whatsappMessage: 'Hi Hamza, I want to hire you for a Viral Video strategy.',
   },
