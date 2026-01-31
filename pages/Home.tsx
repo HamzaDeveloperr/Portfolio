@@ -72,7 +72,7 @@ const Home: React.FC = () => {
             <div className="relative flex justify-center lg:justify-end reveal delay-400">
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-indigo-200/30 rounded-full blur-3xl"></div>
               <div className="relative w-72 h-72 sm:w-96 sm:h-96 md:w-[450px] md:h-[450px] rounded-full overflow-hidden shadow-2xl border-[12px] border-white animate-float">
-                <img src="Images/hamza.jpeg" alt="Hamza Portfolio" className="w-full h-full object-cover" />
+                <img src="Images/smm1.png" alt="Hamza Portfolio" className="w-full h-full object-cover" />
               </div>
               
               {/* Trust Indicators Overlay */}
