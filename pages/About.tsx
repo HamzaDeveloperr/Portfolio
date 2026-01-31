@@ -18,8 +18,11 @@ const About: React.FC = () => {
           {/* Sidebar Info */}
           <div className="lg:col-span-4 space-y-8 lg:sticky lg:top-32 reveal">
             <div className="relative rounded-[40px] overflow-hidden border-8 border-white shadow-2xl">
-              <img src="/Images/hamza_about.jpeg" alt={CONFIG.name} className="w-full h-auto object-cover" />
-            </div>
+<img 
+  src={hamzaAbout} 
+  alt={CONFIG.name} 
+  className="w-full h-auto object-cover" 
+/>            </div>
             
             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm space-y-6 reveal delay-100">
               <h3 className="text-xl font-bold text-gray-900 border-b border-gray-100 pb-4">Quick Contact</h3>
