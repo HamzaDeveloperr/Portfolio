@@ -63,7 +63,7 @@ export const SMM_SERVICES: ServiceItem[] = [
     category: 'smm',
     shortDescription: 'High-ROI paid campaigns targeting your perfect customers with precision.',
     longDescription: 'Stop wasting money on ads that don\'t convert. We build complex sales funnels, retargeting campaigns, and high-quality creative assets.',
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1000',
+    image: 'https://697ddd34c4feaabd2d11cb6d.imgix.net/my%20assat/smm1.png?w=1024&h=1024',
     whatsappMessage: 'Hi Hamza, I need to hire you for Meta Ad campaigns.',
   }
 ];
