@@ -17,7 +17,7 @@ const Footer = () => {
             className="col-span-1 md:col-span-2"
           >
             <Link to="/" className="text-3xl flex font-bold tracking-tighter mb-6 items-center gap-3 text-white hover:text-red-500 transition-colors">
-            <img src="https://images.unsplash.com/photo-1779761262878-64f89e97652e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8fA%3D%3D" alt="logo" className='h-12 w-12 overflow-hidden border border-red-700 rounded-full'/>
+            <img src="https://images.unsplash.com/photo-1779761262878-64f89e97652e" alt="logo" className='h-12 w-12 overflow-hidden border border-red-700 rounded-full'/>
               {BRAND_NAME.toUpperCase()}
             </Link>
             <p className="text-zinc-400 max-w-md text-lg leading-relaxed">

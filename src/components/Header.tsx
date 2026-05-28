@@ -26,7 +26,7 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="text-2xl flex gap-3 justify-center items-center font-bold tracking-tighter text-red-700 hover:text-red-500 transition-colors">
-          <img src="https://images.unsplash.com/photo-1779761262878-64f89e97652e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8fA%3D%3D" alt="logo" className='h-12 w-12 overflow-hidden border border-red-700 rounded-full'/>
+          <img src="https://images.unsplash.com/photo-1779761262878-64f89e97652e" alt="logo" className='h-12 w-12 overflow-hidden border border-red-700 rounded-full'/>
             {BRAND_NAME.toUpperCase()}
           </Link>
 
