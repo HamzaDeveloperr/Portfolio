@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Disallow: /private-drafts/
+
+# Explicit Allowances for LLM Agents and Generative AI Crawlers
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://hamzadeveloperr.github.io/SocialDevAgency/sitemap.xml
+
+LLMs-txt: https://hamzadeveloperr.github.io/SocialDevAgency/llms.txt
+
+LLMs-full-txt: https://hamzadeveloperr.github.io/SocialDevAgency/llms-full.txt
