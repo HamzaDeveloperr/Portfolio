@@ -5,19 +5,19 @@ export const WEB_SERVICES = [
     id: "web-1",
     title: "Custom Business Website",
     description: "High-performance, responsive business websites tailored to your brand identity.",
-    image: "/Portfolio/images/Custom_Business.jpeg",
+    image: "https://images.unsplash.com/photo-1779763875345-6a9e7ff2a464",
   },
   {
     id: "web-2",
     title: "E-commerce Solutions",
     description: "Fully functional online stores with secure payment gateways and product management.",
-    image: "/Portfolio/images/E-commerce.jpeg",
+    image: "https://images.unsplash.com/photo-1779763875298-ae5d91669894",
   },
   {
     id: "web-3",
     title: "Landing Page Optimization",
     description: "High-converting landing pages designed to turn visitors into customers.",
-    image: "/Portfolio/images/Landing_Page_Optimization.jpeg",
+    image: "https://images.unsplash.com/photo-1779763875277-e805da1de2d9",
   }
 ];
 
@@ -64,19 +64,19 @@ export const SEO_SERVICES = [
     id: "seo-1",
     title: "On-Page SEO",
     description: "Optimizing individual web pages to rank higher and earn more relevant traffic in search engines.",
-    image: "/Portfolio/images/On-Page_SEO.jpeg",
+    image: "https://images.unsplash.com/photo-1779763875298-92c85081f455",
   },
   {
     id: "seo-2",
     title: "Off-Page SEO",
     description: "Building high-quality backlinks and improving your site's authority and reputation.",
-    image: "/Portfolio/images/Off-Page_SEO.jpeg",
+    image: "https://images.unsplash.com/photo-1779763875414-7a80de4d58f8",
   },
   {
     id: "seo-3",
     title: "Technical SEO",
     description: "Improving the backend structure and foundation of your website for better crawling and indexing.",
-    image: "/Portfolio/images/Technical_SEO.jpeg",
+    image: "https://images.unsplash.com/photo-1779763875259-c6653ffd59bd",
   }
 ];
 
@@ -86,7 +86,7 @@ export const GALLERY_ITEMS = [
     title: "Fleet Signs and Wrapping",
     description: "Web Dev",
     type: "image",
-    src: "https://images.unsplash.com/photo-1779761810259-dec26b307876?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://images.unsplash.com/photo-1779761810259-dec26b307876",
     link: "http://fleetsignsandwrap.com/"
   },
 
@@ -95,7 +95,7 @@ export const GALLERY_ITEMS = [
     title: "Stay Dry Painting",
     description: "Web Dev",
     type: "image",
-    src: "https://images.unsplash.com/photo-1779761658656-d4d088d59dfa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://images.unsplash.com/photo-1779761658656-d4d088d59dfa",
     link: "https://staydrypainting.com/"
   },
 
@@ -104,7 +104,7 @@ export const GALLERY_ITEMS = [
     title: "Raftaar Painting Inc",
     description: "Web Dev",
     type: "image",
-    src: "https://images.unsplash.com/photo-1779761547203-02a1858e97cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://images.unsplash.com/photo-1779761547203-02a1858e97cc",
     link: "https://raftaarpaintinginc.hstn.me/?i=2"
   }
 ];

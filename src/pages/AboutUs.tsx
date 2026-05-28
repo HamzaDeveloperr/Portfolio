@@ -62,7 +62,7 @@ const AboutUs = () => {
               <motion.img 
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.6 }}
-                src="https://images.unsplash.com/photo-1779761547175-a34bf38a1b7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D" 
+                src="https://images.unsplash.com/photo-1779761547175-a34bf38a1b7c" 
                 alt="Web Development"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -82,7 +82,7 @@ const AboutUs = () => {
               <motion.img 
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.6 }}
-                src="https://images.unsplash.com/photo-1779761262859-8e7ffe413b9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Nnx8fGVufDB8fHx8fA%3D%3D" 
+                src="https://images.unsplash.com/photo-1779761262859-8e7ffe413b9e" 
                 alt="Social Media Marketing"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
