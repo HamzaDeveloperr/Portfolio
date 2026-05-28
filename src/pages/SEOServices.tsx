@@ -1,16 +1,20 @@
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion, Variants } from 'framer-motion'; // ایرر فکس کرنے کے لیے ارجینل فرائمر موشن اور ٹائپس امپورٹ کیں
 import { SEO_SERVICES } from '../constants/data';
 import { generateOrderMessage, formatWhatsAppMessage } from '../utils/whatsapp';
 import { ShoppingCart, CheckCircle, Search } from 'lucide-react';
 
-const SEOServices = () => {
-  const handleOrder = (service: typeof SEO_SERVICES[0]) => {
+// سروس آبجیکٹ کی ٹائپ ڈیفائن کی تاکہ ٹائپ سکرپٹ ایرر نہ دے
+type SEOServiceType = typeof SEO_SERVICES[0];
+
+const SEOServices: React.FC = () => {
+  const handleOrder = (service: SEOServiceType) => {
     const message = generateOrderMessage(service.title, service.description);
     window.open(formatWhatsAppMessage(message), '_blank');
   };
 
-  const containerVariants = {
+  // تمام اینیمیشن آبجیکٹس کو 'Variants' ٹائپ دے کر ان لائن ٹائپ ایررز فکس کر دیے
+  const containerVariants: Variants = {
     hidden: {},
     visible: {
       transition: {
@@ -19,21 +23,21 @@ const SEOServices = () => {
     }
   };
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hidden: { opacity: 0, y: 70 },
     visible: { 
       opacity: 1, 
       y: 0, 
       transition: { 
         duration: 0.8, 
-        ease: [0.215, 0.610, 0.355, 1.000], // custom cubic-bezier easeOut
+        ease: [0.215, 0.610, 0.355, 1.000], 
         staggerChildren: 0.12,
         delayChildren: 0.1,
       } 
     }
   };
 
-  const imageVariants = {
+  const imageVariants: Variants = {
     hidden: { opacity: 0, scale: 0.96, x: -20 },
     visible: { 
       opacity: 1, 
@@ -43,7 +47,7 @@ const SEOServices = () => {
     }
   };
 
-  const imageVariantsAlt = {
+  const imageVariantsAlt: Variants = {
     hidden: { opacity: 0, scale: 0.96, x: 20 },
     visible: { 
       opacity: 1, 
@@ -53,7 +57,7 @@ const SEOServices = () => {
     }
   };
 
-  const elementVariants = {
+  const elementVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { 
       opacity: 1, 
@@ -62,7 +66,7 @@ const SEOServices = () => {
     }
   };
 
-  const featureVariants = {
+  const featureVariants: Variants = {
     hidden: { opacity: 0, x: -15 },
     visible: { 
       opacity: 1, 
@@ -108,9 +112,9 @@ const SEOServices = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: "-120px" }}
-                className={`bg-white rounded-[2rem] overflow-hidden shadow-sm border border-black/5 flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} group relative`}
+                className={`bg-white rounded-4xl overflow-hidden shadow-sm border border-black/5 flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} group relative`}
               >
-                {/* DISCOUNT_OFFER_START: Change the text below to update the discount for all SEO services */}
+                {/* DISCOUNT_OFFER_START */}
                 <motion.div 
                   variants={elementVariants}
                   className="absolute top-6 right-6 bg-red-500 text-white px-5 py-2 rounded-full text-sm font-bold uppercase tracking-widest shadow-xl z-20 animate-pulse"
@@ -119,7 +123,7 @@ const SEOServices = () => {
                 </motion.div>
                 {/* DISCOUNT_OFFER_END */}
 
-                <div className="lg:w-1/2 h-[300px] lg:h-auto relative overflow-hidden">
+                <div className="lg:w-1/2 h-75 lg:h-auto relative overflow-hidden">
                   <motion.img 
                     variants={isEven ? imageVariants : imageVariantsAlt}
                     whileHover={{ scale: 1.05 }}
@@ -159,7 +163,7 @@ const SEOServices = () => {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleOrder(service)}
-                    className="inline-flex items-center justify-center px-10 py-4.5 bg-red-700 text-white rounded-full font-bold text-lg hover:bg-red-500 transition-all group shadow-xl shadow-red-700/20"
+                    className="inline-flex items-center justify-center px-10 py-4 bg-red-700 text-white rounded-full font-bold text-lg hover:bg-red-500 transition-all group shadow-xl shadow-red-700/20"
                   >
                     <ShoppingCart className="mr-2 w-5 h-5" /> Order Now
                   </motion.button>

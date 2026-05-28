@@ -5,19 +5,19 @@ export const WEB_SERVICES = [
     id: "web-1",
     title: "Custom Business Website",
     description: "High-performance, responsive business websites tailored to your brand identity.",
-    image: "https://images.unsplash.com/photo-1779763875345-6a9e7ff2a464?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio/images/Custom_Business.jpeg",
   },
   {
     id: "web-2",
     title: "E-commerce Solutions",
     description: "Fully functional online stores with secure payment gateways and product management.",
-    image: "https://images.unsplash.com/photo-1779763875298-ae5d91669894?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio/images/E-commerce.jpeg",
   },
   {
     id: "web-3",
     title: "Landing Page Optimization",
     description: "High-converting landing pages designed to turn visitors into customers.",
-    image: "https://images.unsplash.com/photo-1779763875277-e805da1de2d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio/images/Landing_Page_Optimization.jpeg",
   }
 ];
 
@@ -64,19 +64,19 @@ export const SEO_SERVICES = [
     id: "seo-1",
     title: "On-Page SEO",
     description: "Optimizing individual web pages to rank higher and earn more relevant traffic in search engines.",
-    image: "https://images.unsplash.com/photo-1779763875298-92c85081f455?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio/images/On-Page_SEO.jpeg",
   },
   {
     id: "seo-2",
     title: "Off-Page SEO",
     description: "Building high-quality backlinks and improving your site's authority and reputation.",
-    image: "https://images.unsplash.com/photo-1779763875414-7a80de4d58f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Nnx8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio/images/Off-Page_SEO.jpeg",
   },
   {
     id: "seo-3",
     title: "Technical SEO",
     description: "Improving the backend structure and foundation of your website for better crawling and indexing.",
-    image: "https://images.unsplash.com/photo-1779763875259-c6653ffd59bd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8fA%3D%3D",
+    image: "/Portfolio/images/Technical_SEO.jpeg",
   }
 ];
 

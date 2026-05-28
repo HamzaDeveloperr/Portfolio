@@ -23,7 +23,7 @@ const ScrollToTop = () => {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <ScrollToTop />
       <div className="min-h-screen flex flex-col font-sans selection:bg-red-100 selection:text-red-900">
         <Header />
