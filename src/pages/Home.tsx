@@ -48,7 +48,7 @@ const Home = () => {
   <motion.div
     initial={{ scale: 1.08 }}
     animate={{
-      x: ["0%", "-50%"],
+      x: ["0%", "-25%"],
     }}
     transition={{
       x: {
