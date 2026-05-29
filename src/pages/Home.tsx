@@ -45,47 +45,63 @@ const Home = () => {
   {/* Animated Background Images */}
   <div className="absolute inset-0 z-0 overflow-hidden">
 
-    <motion.div
-      initial={{ scale: 1.08 }}
-      animate={{
-        x: ["0%", "-50%"],
-      }}
-      transition={{
-        x: {
-          repeat: Infinity,
-          repeatType: "loop",
-          duration: 40,
-          ease: [0, 0, 1, 1],
-        },
-      }}
-      className="flex w-[200%] h-full"
-    >
-      {[
-        "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d",
-        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
-        "https://images.unsplash.com/photo-1683721003111-070bcc053d8b",
-      ].map((src, idx) => (
-        <div
-          key={idx}
-          className="w-screen h-full shrink-0 relative"
-        >
-          <img
-            src={src}
-            alt="Background"
-            className="w-full h-full object-cover opacity-50"
-            draggable={false}
-          />
-        </div>
-      ))}
-    </motion.div>
+  <motion.div
+    initial={{ scale: 1.08 }}
+    animate={{
+      x: ["0%", "-50%"],
+    }}
+    transition={{
+      x: {
+        repeat: Infinity,
+        repeatType: "loop",
 
-    {/* Softer Overlay */}
-    <div className="absolute inset-0 bg-white/30 z-10" />
+        // Mobile faster / Desktop normal fast
+        duration: typeof window !== "undefined" && window.innerWidth < 768 ? 14 : 22,
 
-    {/* Premium Gradient Overlay */}
-    <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-white/10 to-white/20 z-10" />
+        ease: "linear",
+      },
+    }}
+    className="flex w-max h-full"
+  >
+    {[
+      "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+      "https://images.unsplash.com/photo-1683721003111-070bcc053d8b",
 
-  </div>
+      // Duplicate images for smooth infinite loop
+      "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+      "https://images.unsplash.com/photo-1683721003111-070bcc053d8b",
+      // Duplicate images for smooth infinite loop
+      "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+      "https://images.unsplash.com/photo-1683721003111-070bcc053d8b",
+      // Duplicate images for smooth infinite loop
+      "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+      "https://images.unsplash.com/photo-1683721003111-070bcc053d8b",
+    ].map((src, idx) => (
+      <div
+        key={idx}
+        className="w-screen h-full shrink-0 relative"
+      >
+        <img
+          src={src}
+          alt="Background"
+          className="w-full h-full object-cover opacity-50"
+          draggable={false}
+        />
+      </div>
+    ))}
+  </motion.div>
+
+  {/* Softer Overlay */}
+  <div className="absolute inset-0 bg-white/30 z-10" />
+
+  {/* Premium Gradient Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-white/10 to-white/20 z-10" />
+
+</div>
 
   {/* Hero Content */}
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
